@@ -11,7 +11,6 @@ Check your Ansible version by running ansible --version
 
 Configure Jenkins build job to save your repository content every time you change it – this will solidify your Jenkins configuration skills acquired in Project 9.
 
-![image](https://user-images.githubusercontent.com/113097621/220469882-fe6f2cb2-597e-4bee-8e45-5856ea1565fc.png)
 
 ![image](https://user-images.githubusercontent.com/113097621/220472156-cf92143d-08b5-4a55-87e9-073840966253.png)
 
@@ -22,5 +21,19 @@ Configure Jenkins build job to save your repository content every time you chang
 Test your setup by making some change in README.MD file in master branch 
 
 ![image](https://user-images.githubusercontent.com/113097621/220472002-1d47bc0c-1df7-4833-8651-81bc9deed0fa.png)
+
+![image](https://user-images.githubusercontent.com/113097621/220481059-94a535e5-3e18-4e0b-a617-d16f6aac23c9.png)
+
+Prepare your development environment using Visual Studio Code
+
+![image](https://user-images.githubusercontent.com/113097621/220483757-c2533030-21d8-4fb0-af96-8a1fa8ce2a62.png)
+
+Begin Ansible Development
+
+In your ansible-config-mgt GitHub repository, create a new branch that will be used for development of a new feature.
+
+![image](https://user-images.githubusercontent.com/113097621/220485337-6f94b687-92a2-4192-99cb-ad60ee5268df.png)
+
+![image](https://user-images.githubusercontent.com/113097621/220487445-2fccbb89-0064-42c2-a739-3847a190fd1f.png)
 
 
