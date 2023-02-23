@@ -37,3 +37,8 @@ In your ansible-config-mgt GitHub repository, create a new branch that will be u
 ![image](https://user-images.githubusercontent.com/113097621/220487445-2fccbb89-0064-42c2-a739-3847a190fd1f.png)
 
 
+Within the inventory folder, create an inventory file (.yml) for each environment (Development, Staging Testing and Production) dev, staging, uat, and prod respectively.
+![image](https://user-images.githubusercontent.com/113097621/220770145-2aac6184-02db-4555-b11a-9ec616e43bfc.png)
+
+
+
