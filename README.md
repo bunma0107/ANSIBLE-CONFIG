@@ -55,6 +55,47 @@ Update your playbooks/common.yml file with following code:
 ![image](https://user-images.githubusercontent.com/113097621/223495785-d744b82a-4c70-4603-88b2-0d475b8ae463.png)
 
 
+Commit your code into GitHub:
+
+    use git commands to add, commit and push your branch to GitHub
+    
+    ![image](https://user-images.githubusercontent.com/113097621/223503620-e2fee8ca-4eb6-4fa0-b250-59f1ad1f212c.png)
+    
+    ![image](https://user-images.githubusercontent.com/113097621/223503778-ae710d33-fec9-4c69-b053-f1cd3800c6c3.png)
+    
+    ![image](https://user-images.githubusercontent.com/113097621/223504142-f0b48de7-18c0-473a-b7cd-67e83aa661e8.png)
+
+    
+    ![image](https://user-images.githubusercontent.com/113097621/223504031-0d71c4c9-347d-49cb-8e06-1b285e402dd6.png)
+    
+    Create a Pull request (PR)
+    
+    ![image](https://user-images.githubusercontent.com/113097621/223504425-ea5862d0-52bb-4600-b689-4af7c2a0dd6e.png)
+    
+    ![image](https://user-images.githubusercontent.com/113097621/223504659-d7832c75-b33c-4261-9a6b-e7984562626d.png)
+
+
+![image](https://user-images.githubusercontent.com/113097621/223505037-39dafd82-d0b8-4b11-8d2e-3ace8658ad90.png)
+
+Confirm our changes runs on Jenkins
+![image](https://user-images.githubusercontent.com/113097621/223505835-b159c45e-4288-4c1a-9783-fbffee4bced7.png)
+
+![image](https://user-images.githubusercontent.com/113097621/223506172-19d4368c-a166-4b7d-802d-4f38296ad9fe.png)
+
+Once your code changes appear in master branch – Jenkins will do its job and save all the files (build artifacts) to /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/ directory on Jenkins-Ansible server.
+
+![image](https://user-images.githubusercontent.com/113097621/223507128-f144e489-b463-4785-91f8-342943296fca.png)
+
+![image](https://user-images.githubusercontent.com/113097621/223507923-7017011f-aea1-470f-ad54-9d1c12ddf080.png)
+
+
+
+
+    
+    
+
+
+    
 
 
 
