@@ -89,6 +89,10 @@ Once your code changes appear in master branch – Jenkins will do its job and s
 ![image](https://user-images.githubusercontent.com/113097621/223507923-7017011f-aea1-470f-ad54-9d1c12ddf080.png)
 
 
+Run first Ansible test
+
+
+
 
 
     
