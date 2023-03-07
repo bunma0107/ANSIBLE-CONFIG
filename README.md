@@ -40,5 +40,22 @@ In your ansible-config-mgt GitHub repository, create a new branch that will be u
 Within the inventory folder, create an inventory file (.yml) for each environment (Development, Staging Testing and Production) dev, staging, uat, and prod respectively.
 ![image](https://user-images.githubusercontent.com/113097621/220770145-2aac6184-02db-4555-b11a-9ec616e43bfc.png)
 
-End of Project
+TEST SSH into NFS
+![image](https://user-images.githubusercontent.com/113097621/223494763-dd397223-8fcf-42f5-92d0-1c6c975ce4b1.png)
+
+TEST SSH into DB
+![image](https://user-images.githubusercontent.com/113097621/223495018-757bd094-883b-48cf-9411-75c7bc326c3a.png)
+
+
+Update your inventory/dev.yml file with this snippet of code:
+![image](https://user-images.githubusercontent.com/113097621/223495246-ce20e148-a420-4f64-8aa4-99bcf700e63b.png)
+
+Create a Common Playbook
+Update your playbooks/common.yml file with following code:
+![image](https://user-images.githubusercontent.com/113097621/223495785-d744b82a-4c70-4603-88b2-0d475b8ae463.png)
+
+
+
+
+
 
