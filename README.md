@@ -1,5 +1,13 @@
 # ANSIBLE-CONFIG
 
+ANSIBLE CLIENT AS A JUMP SERVER (BASTION HOST)
+
+A Jump Server(Bastion Host) is an intermediary server through which access to internal network can be provided. In the current architecture we have been working on, the webservers are inside a secured network which cannot be reached directly from the Internet. To access the webservers using SSH, we need to go through a jump server which provides a better security and reduced attack.
+
+In the diagram below, the Virtual Private Network (VPC) is divided into two subnets – Public subnet has public IP addresses and Private subnet is only reachable by private IP addresses.
+
+![image](https://user-images.githubusercontent.com/113097621/225132002-a79333c8-971c-4626-95eb-e69a0a814def.png)
+
 Install and configure Ansible on EC2 Instance
 
 ![image](https://user-images.githubusercontent.com/113097621/220458969-f3e4404b-2450-4178-ad42-4bc1f03690a4.png)
@@ -103,7 +111,8 @@ check if wireshark has been installed by running which wireshark or wireshark --
    ![image](https://user-images.githubusercontent.com/113097621/225126695-49ff9edc-833e-4f14-8852-af857354fa79.png)
 
     
-
+This project architecture looks like this 
+![image](https://user-images.githubusercontent.com/113097621/225131605-33205550-887b-4ee8-b7da-47680849cb53.png)
     
 
 
