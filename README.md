@@ -34,7 +34,6 @@ In your ansible-config-mgt GitHub repository, create a new branch that will be u
 
 ![image](https://user-images.githubusercontent.com/113097621/220485337-6f94b687-92a2-4192-99cb-ad60ee5268df.png)
 
-![image](https://user-images.githubusercontent.com/113097621/225091720-1763c226-4e8b-431a-942b-159ee7f190ef.png)
 
 
 ![image](https://user-images.githubusercontent.com/113097621/220487445-2fccbb89-0064-42c2-a739-3847a190fd1f.png)
@@ -99,11 +98,11 @@ ansible-playbook -i inventory/dev.yml playbooks/common.yml
 ![image](https://user-images.githubusercontent.com/113097621/225092126-56338850-4d82-405a-ab9a-e3d5e62779b3.png)
 
 
+check if wireshark has been installed by running which wireshark or wireshark --version
 
+    ![image](https://user-images.githubusercontent.com/113097621/225126695-49ff9edc-833e-4f14-8852-af857354fa79.png)
 
     
-    
-
 
     
 
