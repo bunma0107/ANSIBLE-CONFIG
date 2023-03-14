@@ -61,20 +61,20 @@ Commit your code into GitHub:
 
     use git commands to add, commit and push your branch to GitHub
     
-    ![image](https://user-images.githubusercontent.com/113097621/223503620-e2fee8ca-4eb6-4fa0-b250-59f1ad1f212c.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223503620-e2fee8ca-4eb6-4fa0-b250-59f1ad1f212c.png)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223503778-ae710d33-fec9-4c69-b053-f1cd3800c6c3.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223503778-ae710d33-fec9-4c69-b053-f1cd3800c6c3.png)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504142-f0b48de7-18c0-473a-b7cd-67e83aa661e8.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504142-f0b48de7-18c0-473a-b7cd-67e83aa661e8.png)
 
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504031-0d71c4c9-347d-49cb-8e06-1b285e402dd6.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504031-0d71c4c9-347d-49cb-8e06-1b285e402dd6.png)
     
     Create a Pull request (PR)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504425-ea5862d0-52bb-4600-b689-4af7c2a0dd6e.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504425-ea5862d0-52bb-4600-b689-4af7c2a0dd6e.png)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504659-d7832c75-b33c-4261-9a6b-e7984562626d.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504659-d7832c75-b33c-4261-9a6b-e7984562626d.png)
 
 
 ![image](https://user-images.githubusercontent.com/113097621/223505037-39dafd82-d0b8-4b11-8d2e-3ace8658ad90.png)
@@ -100,7 +100,7 @@ ansible-playbook -i inventory/dev.yml playbooks/common.yml
 
 check if wireshark has been installed by running which wireshark or wireshark --version
 
-    ![image](https://user-images.githubusercontent.com/113097621/225126695-49ff9edc-833e-4f14-8852-af857354fa79.png)
+   ![image](https://user-images.githubusercontent.com/113097621/225126695-49ff9edc-833e-4f14-8852-af857354fa79.png)
 
     
 
