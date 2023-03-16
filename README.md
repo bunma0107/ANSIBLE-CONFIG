@@ -1,5 +1,13 @@
 # ANSIBLE-CONFIG
 
+ANSIBLE CLIENT AS A JUMP SERVER (BASTION HOST)
+
+A Jump Server(Bastion Host) is an intermediary server through which access to internal network can be provided. In the current architecture we have been working on, the webservers are inside a secured network which cannot be reached directly from the Internet. To access the webservers using SSH, we need to go through a jump server which provides a better security and reduced attack.
+
+In the diagram below, the Virtual Private Network (VPC) is divided into two subnets – Public subnet has public IP addresses and Private subnet is only reachable by private IP addresses.
+
+![image](https://user-images.githubusercontent.com/113097621/225132002-a79333c8-971c-4626-95eb-e69a0a814def.png)
+
 Install and configure Ansible on EC2 Instance
 
 ![image](https://user-images.githubusercontent.com/113097621/220458969-f3e4404b-2450-4178-ad42-4bc1f03690a4.png)
@@ -34,6 +42,8 @@ In your ansible-config-mgt GitHub repository, create a new branch that will be u
 
 ![image](https://user-images.githubusercontent.com/113097621/220485337-6f94b687-92a2-4192-99cb-ad60ee5268df.png)
 
+
+
 ![image](https://user-images.githubusercontent.com/113097621/220487445-2fccbb89-0064-42c2-a739-3847a190fd1f.png)
 
 
@@ -59,20 +69,20 @@ Commit your code into GitHub:
 
     use git commands to add, commit and push your branch to GitHub
     
-    ![image](https://user-images.githubusercontent.com/113097621/223503620-e2fee8ca-4eb6-4fa0-b250-59f1ad1f212c.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223503620-e2fee8ca-4eb6-4fa0-b250-59f1ad1f212c.png)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223503778-ae710d33-fec9-4c69-b053-f1cd3800c6c3.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223503778-ae710d33-fec9-4c69-b053-f1cd3800c6c3.png)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504142-f0b48de7-18c0-473a-b7cd-67e83aa661e8.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504142-f0b48de7-18c0-473a-b7cd-67e83aa661e8.png)
 
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504031-0d71c4c9-347d-49cb-8e06-1b285e402dd6.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504031-0d71c4c9-347d-49cb-8e06-1b285e402dd6.png)
     
     Create a Pull request (PR)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504425-ea5862d0-52bb-4600-b689-4af7c2a0dd6e.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504425-ea5862d0-52bb-4600-b689-4af7c2a0dd6e.png)
     
-    ![image](https://user-images.githubusercontent.com/113097621/223504659-d7832c75-b33c-4261-9a6b-e7984562626d.png)
+   ![image](https://user-images.githubusercontent.com/113097621/223504659-d7832c75-b33c-4261-9a6b-e7984562626d.png)
 
 
 ![image](https://user-images.githubusercontent.com/113097621/223505037-39dafd82-d0b8-4b11-8d2e-3ace8658ad90.png)
@@ -93,14 +103,18 @@ Test
 
 Save Artifacts
 
+ansible-playbook -i inventory/dev.yml playbooks/common.yml
+
+![image](https://user-images.githubusercontent.com/113097621/225092126-56338850-4d82-405a-ab9a-e3d5e62779b3.png)
 
 
+check if wireshark has been installed by running which wireshark or wireshark --version
 
+   ![image](https://user-images.githubusercontent.com/113097621/225126695-49ff9edc-833e-4f14-8852-af857354fa79.png)
 
     
-    
-
-
+This project architecture looks like this 
+![image](https://user-images.githubusercontent.com/113097621/225131605-33205550-887b-4ee8-b7da-47680849cb53.png)
     
 
 
