@@ -91,6 +91,7 @@ Once your code changes appear in master branch – Jenkins will do its job and s
 
 Test
 
+Save Artifacts
 
 
 
